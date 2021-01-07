@@ -1,0 +1,65 @@
+html,body {
+    background: rgb(54, 54, 54);
+
+    width: 400%;
+    height: 98%;
+}
+
+h1{
+    width: min-content;
+}
+
+#start, #shell, #go,#clojure, #scala,#rust, #cpp, #javascript, #python  {
+    border-radius:2vh;
+    background: #282a36;
+    height: 80%;
+    width: 4.6%;
+    font-size: 5vh;
+    font-family: 'Source Code Pro', monospace;
+    float:left;
+    margin-left: 0.5%;
+    margin-top:0.01%;
+    margin-bottom:0;
+    margin-right:0.71%;
+}
+
+li{
+    list-style:none;
+}
+
+
+#start{
+    background:none;
+}
+
+ul{
+    padding: 2.5%;
+    color: whitesmoke;
+    width:20%;
+    background-color: limegreen;
+    border-radius: 10px;
+}
+
+li:hover{
+    font-size: 5.5vh;
+    background-color: #ffffff11;
+}
+
+li{
+    width:min-content;
+}
+
+i{
+    margin-right: 0.5vw;
+}
+#s-header {
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    font-size: 5vh;
+    width: calc(100% - 4vh);
+    height: 5vh;
+    padding: 2vh;
+    color: #282a36;
+    background-color: limegreen;
+    margin-top:0;
+}

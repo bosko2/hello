@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HELLO!</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/dracula.min.css" rel="stylesheet">
+    <link href="style/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="start" style="display:inline-block">
+<ul>
+    <li id="b">Bash</li>
+    <li id="g">Go</li>
+    <li id="c">Clojure</li>
+    <li id="s">Scala</li>
+    <li id="r">Rust</li>
+    <li id="cx">C++</li>
+    <li id="j">Javascript</li>
+    <li id="p">Python</li>
+</ul>
+</div>
+
+<div id="shell">
+    <h1 id="s-header">
+        <i class="fas fa-times-circle" style="font-style: normal;"></i>
+        <i class="fas fa-chevron-circle-down" style="font-style: normal"></i>
+        <i class="fas fa-chevron-circle-up" style="font-style: normal"></i>
+        linux@user
+        <p style="float:right;margin:0">BASH</p>
+    </h1>
+    <pre>
+<code class="bash">echo "Hello World!"</code>
+</pre>
+</div>
+
+<div id="go">
+    <h1 id="s-header">
+        <i class="fas fa-times-circle" style="font-style: normal;"></i>
+        <i class="fas fa-chevron-circle-down" style="font-style: normal"></i>
+        <i class="fas fa-chevron-circle-up" style="font-style: normal"></i>
+        <p style="float:right;margin:0">GO</p>
+        GO COMPILER
+    </h1>
+    <pre>
+        <code class="go">package main
+import "fmt"
+
+func main(){
+    fmt.println("Hello World!")
+}
+        </code>
+    </pre>
+</div>
+<div id="clojure">
+    <h1 id="s-header">
+        <i class="fas fa-times-circle" style="font-style: normal;"></i>
+        <i class="fas fa-chevron-circle-down" style="font-style: normal"></i>
+        <i class="fas fa-chevron-circle-up" style="font-style: normal"></i>
+        LEIN REPL
+        <p style="float:right;margin:0">CLOJURE</p>
+    </h1>
+    <pre>
+        <code class="clojure">(println "Hello World!")</code>
+    </pre>
+</div>
+<div id="scala">
+    <h1 id="s-header">
+        <i class="fas fa-times-circle" style="font-style: normal;"></i>
+        <i class="fas fa-chevron-circle-down" style="font-style: normal"></i>
+        <i class="fas fa-chevron-circle-up" style="font-style: normal"></i>
+        SCALA REPL
+        <p style="float:right;margin:0">BASH</p>
+    </h1>
+    <pre>
+        <code class="scala">object Main extends App{
+println("Hello World")
+}</code>
+    </pre>
+</div>
+<div id="rust">
+    <h1 id="s-header">
+        <i class="fas fa-times-circle" style="font-style: normal;"></i>
+        <i class="fas fa-chevron-circle-down" style="font-style: normal"></i>
+        <i class="fas fa-chevron-circle-up" style="font-style: normal"></i>
+        RUST REPL
+        <p style="float:right;margin:0">Rust</p>
+    </h1>
+    <pre>
+        <code class="rust" >fn main(){
+    println!("Hello World!")
+}
+        </code>
+    </pre>
+</div>
+<div id="cpp">
+    <h1 id="s-header">
+        <i class="fas fa-times-circle" style="font-style: normal;"></i>
+        <i class="fas fa-chevron-circle-down" style="font-style: normal"></i>
+        <i class="fas fa-chevron-circle-up" style="font-style: normal"></i>
+        G++ COMPILER
+        <p style="float:right;margin:0">BASH</p>
+    </h1>
+    <pre>
+        <code class="cpp">#include&#60;iostream&#62;
+
+int main(){
+    std::cout << "Hello World!";
+    return 0;
+}</code>
+    </pre>
+</div>
+<div id="javascript">
+    <h1 id="s-header">
+        <i class="fas fa-times-circle" style="font-style: normal;"></i>
+        <i class="fas fa-chevron-circle-down" style="font-style: normal"></i>
+        <i class="fas fa-chevron-circle-up" style="font-style: normal"></i>
+        NODE.JS
+        <p style="float:right;margin:0">JAVASCRIPT</p>
+    </h1>
+    <pre>
+        <code class="js">console.log("Hello World")</code>
+    </pre>
+</div>
+<div id="python">
+    <h1 id="s-header">
+        <i class="fas fa-times-circle" style="font-style: normal;"></i>
+        <i class="fas fa-chevron-circle-down" style="font-style: normal"></i>
+        <i class="fas fa-chevron-circle-up" style="font-style: normal"></i>
+        PYTHON IDLE
+        <p style="float:right;margin:0">PYTHON</p>
+    </h1>
+    <pre>
+        <code class="python">print("Hello World!")</code>
+    </pre>
+</div>
+<script src="script/anime.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+<script src="script/app.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
